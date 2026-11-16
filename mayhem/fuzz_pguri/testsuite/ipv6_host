@@ -1,0 +1,1 @@
+postgres://[::1]:5433/db?connect_timeout=5

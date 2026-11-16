@@ -1,0 +1,8 @@
+pg_control version number:            1300
+Catalog version number:               202209061
+Database system identifier:           6934567890123456789
+Database cluster state:               in archive recovery
+Latest checkpoint location:           1/A0000028
+Latest checkpoint's REDO location:    1/A0000028
+Latest checkpoint's TimeLineID:       1
+Minimum recovery ending location:     1/A0000100

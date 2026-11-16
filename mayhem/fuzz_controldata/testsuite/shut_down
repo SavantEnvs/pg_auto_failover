@@ -1,0 +1,8 @@
+pg_control version number:            1201
+Catalog version number:               201909212
+Database system identifier:           1
+Database cluster state:               shut down
+Latest checkpoint location:           0/16B3748
+Latest checkpoint's REDO location:    0/16B3710
+Latest checkpoint's TimeLineID:       3
+Minimum recovery ending location:     0/0

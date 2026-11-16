@@ -1,0 +1,10 @@
+project: savantenvs/pg_auto_failover
+target: fuzz_dotted_version
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_dotted_version/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dotted_version
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_dotted_version/fuzz_dotted_version.dict
+    timeout: 5

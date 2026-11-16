@@ -1,0 +1,10 @@
+project: savantenvs/pg_auto_failover
+target: fuzz_notification
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_notification/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_notification
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_notification/fuzz_notification.dict
+    timeout: 5

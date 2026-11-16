@@ -1,0 +1,10 @@
+project: savantenvs/pg_auto_failover
+target: fuzz_pguri
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pguri/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pguri
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_pguri/fuzz_pguri.dict
+    timeout: 5

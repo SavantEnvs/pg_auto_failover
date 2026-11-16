@@ -1,0 +1,11 @@
+pg_control version number:            1700
+Catalog version number:               202406281
+Database system identifier:           7412345678901234567
+Database cluster state:               in production
+pg_control last modified:             Mon 16 Nov 2026 10:00:00 AM UTC
+Latest checkpoint location:           0/3000060
+Latest checkpoint's REDO location:    0/3000028
+Latest checkpoint's REDO WAL file:    000000020000000000000003
+Latest checkpoint's TimeLineID:       2
+Latest checkpoint's PrevTimeLineID:   1
+Minimum recovery ending location:     0/0

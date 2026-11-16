@@ -1,0 +1,1 @@
+{"type":"state","formation":"default","groupId":0,"nodeId":3,"name":"node_3","host":"db3.example.com","port":5433,"reportedState":"secondary","goalState":"primary","health":"good"}
